@@ -1,38 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-header{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    width: 100%;
-}
-
-header ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-}
-
-header ul li{
-    margin: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    color: rgb(50, 60, 85);
-    font-size: 20px;
-}
-
-
 a{
     text-decoration: none;
 }
+
 img {
     height: 150px;
 }
 h2{
+    color: rgb(50, 60, 85);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal
+}
+h3{
     color: rgb(50, 60, 85);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -44,6 +27,29 @@ p{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal
+}
+
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(50, 60, 85);
+    font-size: 20px;
 }
 
 
@@ -74,12 +80,22 @@ p{
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin: 10px;
     align-items: center;
+    background-color: rgba(50, 60, 85, 0.5);
 }
 .recom_box{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
